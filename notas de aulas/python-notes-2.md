@@ -67,6 +67,15 @@ if -> elif -> elif
 if -> elif -> elif -> ... -> else
 ```
 
+# Operações
+|Operador|Simbologia|Exemplo|Descrição|
+|:--:|:--:|:--:|:--:|
+|Potência|`**`|`a**b`|A elevado a B|
+|Resto/Mod|`%`|`a%b`|Retorna o resto de A divido por B|
+|Soma reflexiva|`+=`|`a+=b`| `a = a + b` |
+|Produto reflexiva|`*=`|`a*=b`| `a = a * b` |
+|Divisão reflexiva|`/=`|`a/=b`| `a = a / b` |
+
 # Operadores lógicos 
 
 ## Comparações
@@ -76,21 +85,19 @@ if -> elif -> elif -> ... -> else
 |Maior igual|`>=`|`a>=b`|Retorna `True` ou `False`, caso a seja maior ou igual a B|
 |Diferente|`!=`|`a!=b`|Retorna `True` ou `False`, caso a seja diferente de B| 
 
-## Operações
-|Operador|Simbologia|Exemplo|Descrição|
-|:--:|:--:|:--:|:--:|
-|Potência|`**`|`a**b`|A elevado a B|
-|Resto/Mod|`%`|`a%b`|Retorna o resto de A divido por B|
-|Soma reflexiva|`+=`|`a+=b`| `a = a + b` |
-|Produto reflexiva|`*=`|`a*=b`| `a = a * b` |
-|Divisão reflexiva|`/=`|`a/=b`| `a = a / b` |
 
 ## Operações entre condições
 
 True and False = False
 True and True = True
 
-|Operador|Simbologia|Descrição|
+|Operador|Keyword|Descrição|
 |:--:|:--:|:--:|
-|"e"|`&&`/`and`|Testa se ambas as condições serão verdade simultaneamente|
+|"e"|`and`|Testa se ambas as condições são `True` simultaneamente|
+|"ou"|`or`|Testa se alguma das condições é `True`|
+
+> Símbolo alternativo para `and`: `&&`
+
+> Símbolo alternativo para `or`: `||`
+
 
