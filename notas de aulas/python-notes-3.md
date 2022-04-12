@@ -71,3 +71,25 @@ for <iterator> in <array, list, tuple, str>:
 ```
 
 ## keyword `range()`
+
+sintaxe:
+
+> `range(stop)`
+
+> `range(start, stop)`
+
+> `range(start, stop, step)`
+
+```py
+for iterator in range(start, stop, step) :
+  # faça algo
+```
+
+Analogo:
+```py
+int iterator = start
+
+while iterator < stop :
+  # faço algo
+  iterator += step
+```
